@@ -1,0 +1,110 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <header>
+      <h1>My Intro Page</h1>
+    </header>
+
+    <nav>
+      <a href="#about">About Me</a>
+      <a href="skills">My Skills</a>
+      <a href="projects">My Projects</a>
+      <a href="forms">Contact Form</a>
+    </nav>
+
+    <main>
+      <section id="about">
+        <h2>About Me</h2>
+        <p>Hello my name is Lệ Xuân. I am a Data Science student.</p>
+        <p>My goal is to use data to solve real-world problems.</p>
+
+        <img
+          src="https://isme.neu.edu.vn/wp-content/uploads/2023/01/3-183923.png"
+          alt="National Economics University"
+        />
+      </section>
+
+      <section id="skills">
+        <h2>My Skills</h2>
+        <ul>
+          <li>Programming Language: Python, HTML, Java</li>
+          <li>Data Analysis: Pandas, Numpy</li>
+          <li>Data Visualization: Tableau, Power BI</li>
+        </ul>
+      </section>
+
+      <section id="projects">
+        <h2>My Projects</h2>
+
+        <table>
+          <caption>
+            My AI Models
+          </caption>
+          <thead>
+            <tr>
+              <th>Project Name</th>
+              <th>Model Used</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Churn Prediction</td>
+              <td>Logistic Regression</td>
+            </tr>
+            <tr>
+              <td>Fraud Detection</td>
+              <td>Random Forest</td>
+            </tr>
+            <tr>
+              <td>Credit Scoring</td>
+              <td>XGBoost</td>
+            </tr>
+          </tbody>
+        </table>
+      </section>
+
+      <section id="forms">
+        <h2>Contact Me</h2>
+
+        <form action="/submit" method="post">
+          <label for="name">Full Name:</label>
+          <input id="name" name="name" type="text" />
+          <br />
+
+          <label for="age">Age:</label>
+          <input id="age" name="age" type="number" />
+          <br />
+
+          <label for="email">Email Address:</label>
+          <input id="email" name="email" type="email" />
+          <br />
+
+          <label for="gender">Gender:</label>
+          <input id="gender" name="gender" type="radio" value="male" /> Male
+          <br />
+
+          <label for="city">City:</label>
+          <select id="city" name="city">
+            <option value="hn">Hanoi</option>
+          </select>
+          <br />
+
+          <label for="notes">Notes:</label>
+          <textarea id="notes" name="notes"></textarea>
+          <br />
+
+          <button type="submit">Submit</button>
+        </form>
+      </section>
+    </main>
+
+    <footer>
+      <p>Liên hệ: xuxuxuan1902@gmail.com</p>
+    </footer>
+  </body>
+</html>
