@@ -1,0 +1,65 @@
+h1 {
+    /* margin: 20px 10px 30px 60px; */
+    margin-top: 20px;
+    margin-left: 60px;
+    margin-right: 10px;
+    margin-bottom: 30px;
+    color: pink;
+    font-size: 42px;
+}
+
+.highlight {
+    font-weight: bold;
+    color: purple; 
+}
+
+#main-header {
+    font-weight: bold;
+    color: pink; 
+}
+
+a:hover {
+    color: plum;
+}
+
+.card1 {
+    width: 300px;
+    padding: 20px;
+    border: 2px solid black;
+    margin: 20px;
+}
+
+.card2 {
+    width: 300px;
+    padding: 30px;
+    border: 1px solid pink;
+    margin: 30px;
+}
+
+.card3 {
+    width: 300px;
+    padding: 10px;
+    border: 2px solid paleturquoise;
+    margin: 40px;
+}
+
+.box {
+    background: pink;
+    padding: 20px;
+    text-align: center;
+    border: 1px dashed rosybrown;
+}
+
+/* Flexbox */
+.flex-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+/* Grid */
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+}
